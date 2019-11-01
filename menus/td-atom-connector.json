@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Teradata Connect",
+        "command": "td-atom-connector:connect"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "Teradata Connector",
+          "submenu": [
+            {
+              "label": "Connect",
+              "command": "td-atom-connector:connect"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
